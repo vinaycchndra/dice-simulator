@@ -1,7 +1,8 @@
 import random 
 def rolling_dice(minimum=1,maximum=6):
+    print(random.randint(minimum,maximum))
     while True:
-        if input('Do you want to roll the dice ? type y/n: ').lower()=='n':
+        if input('Do you want to roll again the dice ? type y/n: ').lower()=='n':
             break
         else:
             print(random.randint(minimum,maximum))
