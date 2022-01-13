@@ -1,2 +1,3 @@
-# python_projects
-A beginner's python project
+# vcj/project/1
+The First one is dice simulator
+
