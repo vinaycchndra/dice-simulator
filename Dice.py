@@ -1,6 +1,5 @@
 import random                                                      # Dice simulator
 class dice_roll:
-    
     def __init__(self,bias='n',inclined=0):
         self.bias = bias
         self.inclined = inclined
